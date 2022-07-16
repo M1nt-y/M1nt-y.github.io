@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Svia's card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="pfp.jpg" class="pfp">
+            <h1>Svia<span style="color: #9896F0; font-size: 20px; vertical-align: top;">he/him</span></h1>
+            <hr>
+            <h2><em>Genshin</em></h2>
+            <hr>
+            <p><em>EU</em>: 742271963 | AR54</p>
+            <p><em>NA</em>: 647943498 | AR52</p>
+            <hr>
+        </div>
+        <div class="links">
+            <div class="button" onclick="aboutMe()"><em>About me</em></div>
+            <div class="button" onclick="openInNewTab('https://twitter.com/notsvia');"><em>Twitter</em></div>
+        </div>
+        
+        <!-- The Modal -->
+        <div id="myModal" class="center">
+            <!-- The Close Button -->
+            <span class="close" onclick="btnClose()">&times;</span>
+            <div class="container">
+                <div class="abtMe">
+                    <hr>
+                    <h3><em>About me</em></h3>
+                    <hr>
+                    <p>
+                        &emsp;&emsp;I'm boring person, have not much to tell, also 
+                        I'm bad at everything, so don't expect too much from me :)<br>
+                        &emsp;&emsp;So, I'm 20. Studying computer science. My MBTI is ISFJ.<br>
+                        &emsp;&emsp;That's all what came to mind, if you want to know me better, DM me. 
+                    </p>
+                </div>
+                <div class="interests">
+                    <hr>
+                    <h3><em>Interests</em></h3>
+                    <hr>
+                    <p>
+                        &emsp;&emsp;I don't have any cool hobbies or interests, but I read a lot of manga.<br>
+                        &emsp;&emsp;Also I play Valorant sometimes, so if you're from EU, and want to play with some noob, ask for my nickname in DM or add me in Discord.
+                    </p>
+                    <h3>Discord: notsvia#6729</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function aboutMe() {
+          document.getElementById("myModal").style.display = "grid";
+        }
+        function btnClose() {
+            document.getElementById("myModal").style.display = "none";
+        }
+        function openInNewTab(url) {
+            window.open(url, '_blank').focus();
+        }
+    </script>
+</body>
+</html>
