@@ -117,12 +117,12 @@ h1, h2, h3 {text-align: center; margin-top: 15px; margin-bottom: 15px; }
 }
 
 .abtMe {
-    margin-top: 25px;
+    margin-top: 20px;
     z-index: 2;
 }
 
 .interests {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     z-index: 2;
 }
 
@@ -143,7 +143,7 @@ p {
         height: 700px;
     }
 
-    h1, h2 { margin-top: 10px; margin-bottom: 10px; }
+    h1, h2 { margin-top: 5px; margin-bottom: 5px; }
 
     .profile {
         margin-top: 10px;
